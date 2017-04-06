@@ -7,7 +7,7 @@
   "env": {
     "SLACK_SLASH_COMMAND_TOKEN": {
       "description": "The token for the corresponding slash command provided by Slack.",
-      "generator": "set_me_from_slack"
+      "value": "set_me_from_slack"
     }
   },
   "image": "heroku/ruby",
