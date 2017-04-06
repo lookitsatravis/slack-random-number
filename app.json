@@ -1,7 +1,7 @@
 {
   "name": "D&D Wild Surge Slack Command",
   "description": "Display Wild Surge spells in Slack!",
-  "repository": "hthttps://github.com/lookitsatravis/dnd-wildsurge-slack",
+  "repository": "https://github.com/lookitsatravis/dnd-wildsurge-slack.git",
   "logo": "https://raw.githubusercontent.com/lookitsatravis/dnd-wildsurge-slack/master/dnd-logo.png",
   "keywords": ["rails", "dnd", "slack"],
   "env": {
