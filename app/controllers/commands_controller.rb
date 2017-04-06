@@ -6,7 +6,7 @@ class CommandsController < ApplicationController
 
     result = WildSurge.find_by_id(command_params[:text])
 
-    render json: { text: result }, status: :created
+    render json: { text: result, response_type: "in_channel" }, status: :created
   end
 
   private
