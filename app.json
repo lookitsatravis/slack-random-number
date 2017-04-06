@@ -3,5 +3,12 @@
   "description": "Display Wild Surge spells in Slack!",
   "repository": "hthttps://github.com/lookitsatravis/dnd-wildsurge-slack",
   "logo": "https://raw.githubusercontent.com/lookitsatravis/dnd-wildsurge-slack/master/dnd-logo.png",
-  "keywords": ["rails", "dnd", "slack"]
+  "keywords": ["rails", "dnd", "slack"],
+  "env": {
+    "SLACK_SLASH_COMMAND_TOKEN": {
+      "description": "The token for the corresponding slash command provided by Slack.",
+      "generator": "set_me_from_slack"
+    }
+  },
+  "image": "heroku/ruby",
 }
