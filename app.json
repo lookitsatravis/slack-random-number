@@ -10,5 +10,9 @@
       "value": "set_me_from_slack"
     }
   },
-  "image": "heroku/ruby",
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    }
+  ]
 }
