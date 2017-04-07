@@ -10,7 +10,7 @@ class CommandsController < ApplicationController
 
     # If there is no max param, then we assume they only gave a max and no min.
     # In that case, min is 1
-    if max.nil?
+    if max.nil? || max == 0
       min = 1
       max = options[0].to_i
     end
